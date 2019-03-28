@@ -1,31 +1,24 @@
-<<<<<<< HEAD
-# Filter-Redux-TodoApp
-=======
-# ToDoApp
+<h1>ToDo App in Angular 7.0 with Redux</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
+<h2>Ngrx</h2>
 
-## Development server
+<p>This project is to practice the concepts of ngrx, actions, store, reducers with angular.</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Installing and Running
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Make sure that you have `node` and `npm` installed on your computer.
+2. Fork and clone this repo on your computer.
+3. `cd` into the root directory and run ` npm install`.
+4. Run `npm start` and point your browser to `localhost:4200`.
 
-## Build
+<h2>The Final Product! </h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This aplication can run in a localhost or the following <a href="https://aldair47x.github.io/Filter-Redux-TodoApp/">URL</a>
+<br>
+<h1>Tips</h1>
+<h2>Restarting the server</h2>
 
-## Running unit tests
+<br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
->>>>>>> init 1.0
+<p>When you make changes to any JavaScript files, you have to restart the server. Just press `ctrl + c` in the terminal to stop the server and `npm start` or `node ./bin/www` to start it up again. This process can get very tedious, so I highly recommend that you install Nodemon. This package will automatically restart your server every time you make changes to your JS files. All you have to do is run `sudo npm install -g nodemon` to install the package globally and then run `nodemon index.js`. The package takes care of the rest!</p>
